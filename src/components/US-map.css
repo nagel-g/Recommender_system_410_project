@@ -1,0 +1,23 @@
+body {background-color: skyblue;
+
+}
+.mapdiv{
+    width: 29%;
+    margin: auto;
+}
+/* This is not currently working  */
+.mapdiv path {
+    fill: #CC1100
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    
+   
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+}
