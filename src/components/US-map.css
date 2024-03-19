@@ -6,9 +6,7 @@ body {background-color: skyblue;
     margin: auto;
 }
 /* This is not currently working  */
-.mapdiv path {
-    fill: #CC1100
-}
+
 
 .map-container {
     display: flex;
