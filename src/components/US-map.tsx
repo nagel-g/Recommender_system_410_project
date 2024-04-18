@@ -1,4 +1,3 @@
-import React from "react";
 import "./US-map.css";
 const mapString = `
 <!DOCTYPE html>
