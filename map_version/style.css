@@ -1,29 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-  
-  li {
+    font-family: 'Manrope', sans-serif; /* Add this line to apply Manrope font */
+}
+.logo {
+  max-width: 100px;
+  position: absolute;
+  top: 10px; /* Adjust this value to position vertically */
+  right: 10px; /* Adjust this value to position horizontally */
+}
+
+li {
     float: left;
-  }
-  
-  li a {
+}
+
+li a {
     display: block;
     color: rgb(2, 40, 101);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #dcb610;
-  }
+}
 
-  footer {
+li a:hover {
+    background-color: #dcb610;
+}
+
+footer {
     text-align: center;
     padding: 5px;
     background-color: #dcb610;
     color: #000;
-  }
+}
+
+.description{
+  font-family: 'Manrope', sans-serif;
+}

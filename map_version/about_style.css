@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: 'Manrope', sans-serif; 
   }
   li {
     float: left;
